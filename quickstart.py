@@ -1,17 +1,14 @@
 import smtplib, ssl
 
 port = 587  # For starttls
-smtp_server = "smtp.gmail.com"
-sender_email = "hahahfivebotgobrrrrrrrrrrrrr@gmail.com"
-receiver_email = "phelpgae@nerdoron.me"
-#receiver_email = "johncena694204206969@gmail.com"
-password = "haha69funni"
+smtp_server = "smtp.gmail.com" # Gmail SMTP server
+sender_email = "EMAIL@gmail.com"
+receiver_email = "name@domain.com"
+password = "PWD"
 message = """\
-Subject: Hi there
+Subject: __
 
-Phelps gae Phelps gae
-
-Yes FiveBot cool better than mee6 quote this because Tonelyr is very good man
+Insert Text
 
 This message is sent from Python."""
 
